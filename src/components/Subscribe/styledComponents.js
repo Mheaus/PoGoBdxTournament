@@ -1,11 +1,6 @@
 import styled from 'styled-components';
 
-export const AppLayout = styled.div`
-  height: 100%;
-  width: 100%;
-`;
-
-export const Subscribe = styled.div`
+export const SubscribeLayout = styled.div`
   background-color: #282c34;
   color: white;
   display: flex;
@@ -14,7 +9,7 @@ export const Subscribe = styled.div`
   height: 100%;
   justify-content: center;
   padding: 0 2rem;
-  width: calc(62.5% - 4rem);
+  width: calc(75% - 4rem);
 
   p {
     font-size: 1.25rem;
@@ -42,7 +37,18 @@ export const Input = styled.input`
   font-size: 1rem;
   height: 3rem;
   padding: 0 1rem;
-  width: calc(100% - 2rem);
+
+  &:first-of-type {
+    float: left;
+    margin-right: 0.5rem;
+    width: calc(25% - 2.5rem);
+  }
+
+  &:last-of-type {
+    float: right;
+    margin-left: 0.5rem;
+    width: calc(75% - 2.5rem);
+  }
 `;
 
 export const Button = styled.button`
@@ -73,9 +79,23 @@ export const Button = styled.button`
   }
 `;
 
-export const News = styled.div`
-  background-color: #f4f4f4;
-  float: right;
-  height: 100%;
-  width: 37.5%;
+export const ConfirmationLabel = styled.p`
+  && {
+    color: #639fbf;
+    float: right;
+    font-size: 0.875rem;
+    text-align: right;
+    transition: all 0.25s;
+    width: 100%;
+
+    &.hidden {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    &.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
 `;
