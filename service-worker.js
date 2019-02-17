@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/po-go-bdx-tournament/precache-manifest.37f8b6f277ecce9225fa7866e1ea988d.js"
+  "/po-go-bdx-tournament/precache-manifest.72ee359e1098ca6e274a7b2dca2f26ba.js"
 );
 
 workbox.clientsClaim();

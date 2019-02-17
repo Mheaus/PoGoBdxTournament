@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/po-go-bdx-tournament/static/js/runtime~main.87674a31.js"
   },
   {
-    "revision": "e686d7821852745d3d26",
-    "url": "/po-go-bdx-tournament/static/js/main.e686d782.chunk.js"
+    "revision": "4350e1918325d3422a83",
+    "url": "/po-go-bdx-tournament/static/js/main.4350e191.chunk.js"
   },
   {
     "revision": "ac80f3f608eb47eb9db9",
     "url": "/po-go-bdx-tournament/static/js/2.ac80f3f6.chunk.js"
   },
   {
-    "revision": "e686d7821852745d3d26",
+    "revision": "4350e1918325d3422a83",
     "url": "/po-go-bdx-tournament/static/css/main.d32b5a4d.chunk.css"
   },
   {
-    "revision": "efbdef8d16f390b7e938de24dde890ba",
+    "revision": "bf435ffa634b5433ee9fd84a3e5622c9",
     "url": "/po-go-bdx-tournament/index.html"
   }
 ];
