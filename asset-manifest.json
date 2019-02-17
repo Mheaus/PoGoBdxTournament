@@ -1,13 +1,14 @@
 {
-  "main.css": "/po-go-bdx-tournament/static/css/main.db29adfa.chunk.css",
-  "main.js": "/po-go-bdx-tournament/static/js/main.e733ce3b.chunk.js",
-  "main.js.map": "/po-go-bdx-tournament/static/js/main.e733ce3b.chunk.js.map",
+  "main.css": "/po-go-bdx-tournament/static/css/main.d32b5a4d.chunk.css",
+  "main.js": "/po-go-bdx-tournament/static/js/main.c6a1535d.chunk.js",
+  "main.js.map": "/po-go-bdx-tournament/static/js/main.c6a1535d.chunk.js.map",
   "runtime~main.js": "/po-go-bdx-tournament/static/js/runtime~main.87674a31.js",
   "runtime~main.js.map": "/po-go-bdx-tournament/static/js/runtime~main.87674a31.js.map",
-  "static/js/2.36365dbe.chunk.js": "/po-go-bdx-tournament/static/js/2.36365dbe.chunk.js",
-  "static/js/2.36365dbe.chunk.js.map": "/po-go-bdx-tournament/static/js/2.36365dbe.chunk.js.map",
+  "static/js/2.ac80f3f6.chunk.js": "/po-go-bdx-tournament/static/js/2.ac80f3f6.chunk.js",
+  "static/js/2.ac80f3f6.chunk.js.map": "/po-go-bdx-tournament/static/js/2.ac80f3f6.chunk.js.map",
   "index.html": "/po-go-bdx-tournament/index.html",
-  "precache-manifest.a6f4dcef6a8ef450dd3602ed67f00434.js": "/po-go-bdx-tournament/precache-manifest.a6f4dcef6a8ef450dd3602ed67f00434.js",
+  "precache-manifest.f14129d6194db0cb4d13ec5bc2ead6d2.js": "/po-go-bdx-tournament/precache-manifest.f14129d6194db0cb4d13ec5bc2ead6d2.js",
   "service-worker.js": "/po-go-bdx-tournament/service-worker.js",
-  "static/css/main.db29adfa.chunk.css.map": "/po-go-bdx-tournament/static/css/main.db29adfa.chunk.css.map"
+  "static/css/main.d32b5a4d.chunk.css.map": "/po-go-bdx-tournament/static/css/main.d32b5a4d.chunk.css.map",
+  "static/media/tempest-cup-promo.jpg": "/po-go-bdx-tournament/static/media/tempest-cup-promo.fe3cb030.jpg"
 }
