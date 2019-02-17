@@ -1,0 +1,56 @@
+:root {
+  font-size: 16px;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #282c34;
+  font-family: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+  color: #fbe261;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  appearance: none;
+}
+
+input:focus {
+  outline: none;
+}
