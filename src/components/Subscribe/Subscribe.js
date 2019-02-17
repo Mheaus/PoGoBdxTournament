@@ -30,7 +30,7 @@ function Subscribe() {
       <h1>Tournois Pokemon Go Bordeaux</h1>
       <Presentation>
         <p>
-          Ce projet a été pour permettre aux joueurs de Pokemon Go sur Bordeaux et alentours de se regrouper afin de
+          Ce site a été créé pour permettre aux joueurs de Pokemon Go sur Bordeaux et alentours de se regrouper afin de
           participer à des tournois de la{' '}
           <a target="_blank" rel="noopener noreferrer" href="https://silph.gg/">
             Silph Road
@@ -38,7 +38,7 @@ function Subscribe() {
           .
         </p>
         <p>
-          Si vous êtes intéressé par l{"'"}initiative n{"'"}hésitez pas à rejoindre{' '}
+          Si vous êtes intéressé par l{"'"}initiative, n{"'"}hésitez pas à rejoindre{' '}
           <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/mR25Vq">
             ce serveur discord
           </a>{' '}
@@ -62,12 +62,12 @@ function Subscribe() {
           required
           type="email"
         />
-        <Button type="submit" onClick={registerUserMail} disabled={email.length === 0 || isFormSubmitted}>
-          s{"'"}inscrire
-        </Button>
         <ConfirmationLabel className={isFormSubmitted ? 'visible' : 'hidden'}>
           ton inscription a bien été enregistrée
         </ConfirmationLabel>
+        <Button type="submit" onClick={registerUserMail} disabled={email.length === 0 || isFormSubmitted}>
+          s{"'"}inscrire
+        </Button>
       </Form>
     </SubscribeLayout>
   );

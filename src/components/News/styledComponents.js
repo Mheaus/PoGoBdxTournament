@@ -2,10 +2,17 @@ import styled from 'styled-components';
 
 export const NewsLayout = styled.div`
   background-color: #fff;
-  float: right;
-  height: calc(100% - 4rem);
   padding: 2rem;
-  width: calc(25% - 4rem);
+
+  @media screen and (max-width: 800px) {
+    width: calc(100% - 4rem);
+  }
+
+  @media screen and (min-width: 800px) {
+    float: right;
+    height: calc(100% - 4rem);
+    width: calc(25% - 4rem);
+  }
 `;
 
 export const Title = styled.h3`
